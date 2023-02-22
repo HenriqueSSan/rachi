@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  @font-face {
+    font-family: 'Inter';
+    font-weight: 500;
+    src: url('./assets/fonts/Inter-Medium.ttf');
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    font-weight: 400;
+    src: url('./assets/fonts/Inter-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: 'Sora';
+    font-weight: 400;
+    src: url('./assets/fonts/Sora-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: 'Sora';
+    font-weight: 600;
+    src: url('./assets/fonts/Sora-SemiBold.ttf');
+  }
+}
