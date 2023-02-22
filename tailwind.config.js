@@ -5,12 +5,14 @@ module.exports = {
       sm: '0px',
       ns: '769px',
       md: '1025px',
-      lg: '1440px',
+      lg: '1441px',
       xl: '1921px',
       xxl: '2500px',
     },
 
     colors: {
+      transaparent: "transparent",
+
       common: {
         white: {
           DEFAULT: '#FFFFFF',

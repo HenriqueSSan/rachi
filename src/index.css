@@ -27,3 +27,18 @@
     src: url('./assets/fonts/Sora-SemiBold.ttf');
   }
 }
+
+@layer components {
+  .pull-right {
+    animation: pull-right linear 300ms;
+  }
+}
+
+@keyframes pull-right {
+  0% {
+    right: -100%;
+  }
+  100% {
+    right: 0;
+  }
+}
