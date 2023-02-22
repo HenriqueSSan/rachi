@@ -14,7 +14,7 @@ export function Header() {
 
   return (
     <>
-      <header className="w-100 sticky top-0 left-0">
+      <header className="w-100 sticky top-0 left-0 bg-common-white">
         <nav
           className="relative mx-auto flex w-full items-center justify-between p-6 md:w-[81.75%] md:py-4 md:px-0"
           data-md="(1440 - 132 * 2) / 1440 * 100 = 81.666...."
@@ -29,16 +29,25 @@ export function Header() {
             />
           </a>
 
-          <button className="md:hidden" type="button" onClick={handleSetOpenMenu}>
-            <img width={24} height={24} src={openIsMenu ? crossXIcon : hamburgerIcon} alt="" />
+          <button
+            className="md:hidden"
+            type="button"
+            onClick={handleSetOpenMenu}
+          >
+            <img
+              width={24}
+              height={24}
+              src={openIsMenu ? crossXIcon : hamburgerIcon}
+              alt=""
+            />
           </button>
 
           <div
-            className={`right-[-100%] top-[72px] flex justify-center max-[1024px]:absolute max-[1024px]:w-full ${
+            className={`max-[1024px]: right-[-100%] top-[72px] flex justify-center px-6 max-[1024px]:fixed max-[1024px]:w-full ${
               openIsMenu ? 'pull-right right-0' : ''
             }`}
           >
-            <ul className="flex flex-col items-center max-[1024px]:w-8/12 max-[1024px]:items-end max-[1024px]:gap-y-[24px] max-[1024px]:rounded-b-2xl max-[1024px]:p-12 max-[1024px]:shadow-[4px_4px_20px_#00000048] md:flex-row md:gap-x-[66px]">
+            <ul className="flex flex-col items-center bg-common-white max-[1024px]:w-full max-[1024px]:items-end max-[1024px]:gap-y-[24px] max-[1024px]:rounded-b-2xl max-[1024px]:p-12  max-[1024px]:shadow-[4px_4px_20px_#00000048] md:flex-row md:gap-x-[66px]">
               <li className="max-[1024px]:w-full">
                 <a
                   className="text-gray transition duration-300 ease-in hover:text-blue max-[1024px]:flex max-[1024px]:justify-center"
