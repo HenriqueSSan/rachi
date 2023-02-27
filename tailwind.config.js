@@ -2,6 +2,17 @@ module.exports = {
   content: ['index.html', './src/**/*.{js,ts,tsx}'],
   plugins: [],
   theme: {
+    screens: {
+      ns: '769px',
+      md: '1025px',
+
+      'max-md': { max: '1024px' },
+    },
+
+    zIndex: {
+      header: 100,
+    },
+
     colors: {
       '@primary': {
         DEFAULT: '#0f9afe',
@@ -25,6 +36,7 @@ module.exports = {
         },
 
         '@light': {
+          'temp-color': '#EFF8FF',
           color: '#EFF8FF',
           text: '#6e7275',
         },
@@ -33,5 +45,4 @@ module.exports = {
 
     extend: {},
   },
-  plugins: [],
 };

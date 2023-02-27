@@ -1,0 +1,207 @@
+"vscode_custom_css.imports": [
+		"file:///home/usuario/.vscode/vscode_style/vscode_style.css"
+	],
+
+	"workbench.iconTheme": "material-icon-theme",
+
+	"workbench.colorCustomizations": {
+		"[Omni]": {
+			"activityBar.activeBackground": "#f72585",
+			"activityBar.activeBorder": "#ffffff",
+			"activityBarBadge.background": "#f72585",
+			"activityBarBadge.foreground": "#ffffff",
+			"sideBar.background": "#282828",
+			"statusBar.background": "#f72585"
+		},
+		"[Omni Owl]": {
+			"activityBar.activeBackground": "#29FFBF",
+			"activityBar.foreground": "#8730DF",
+			"activityBar.inactiveForeground": "#8730DF",
+			"activityBar.activeBorder": "#000",
+			"activityBarBadge.background": "#29FFBF",
+			"activityBarBadge.foreground": "#000",
+			"sideBar.background": "#351358",
+			"statusBar.background": "#29FFBF",
+			"statusBar.foreground": "#8730DF"
+		},
+		"[Monokai]": {
+			"editor.background": "#121212",
+			"activityBar.activeBackground": "#f72585",
+			"activityBar.activeBorder": "#ffffff",
+			"activityBarBadge.background": "#f72585",
+			"activityBarBadge.foreground": "#ffffff",
+			"sideBar.background": "#282828",
+			"statusBar.background": "#f72585"
+		}
+	},
+
+	"explorer.compactFolders": false,
+
+	"editor.fontFamily": "'Fira Code', monospace",
+	"editor.fontLigatures": true,
+	"editor.fontWeight": "400",
+	"editor.autoIndent": "advanced",
+	"editor.suggestFontSize": 16,
+	"editor.suggest.insertMode": "insert",
+	"editor.autoClosingBrackets": "always",
+	"editor.renderLineHighlight": "line",
+	"editor.cursorWidth": 3,
+	"editor.glyphMargin": false,
+
+	"editor.formatOnSave": true,
+	"editor.tabSize": 2,
+	"editor.minimap.scale": 2,
+	"editor.minimap.size": "fill",
+	"editor.minimap.showSlider": "always",
+	"editor.minimap.enabled": false,
+	"editor.fontSize": 16,
+	"editor.accessibilitySupport": "off",
+	"editor.maxTokenizationLineLength": 10000,
+
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.enable": true,
+	"prettier.endOfLine": "auto",
+	"prettier.arrowParens": "always",
+	"prettier.printWidth": 80,
+	"prettier.semi": true,
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"prettier.bracketSpacing": true,
+	"prettier.tabWidth": 2,
+
+	"[html]": {
+		"editor.formatOnSave": true
+	},
+
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	"[json]": {
+		"editor.quickSuggestions": {
+			"strings": true
+		},
+		"editor.suggest.insertMode": "replace",
+		"gitlens.codeLens.scopes": ["document"],
+		"editor.lineHeight": 20
+	},
+
+	"[jsonc]": {
+		"editor.quickSuggestions": {
+			"strings": true
+		},
+		"editor.suggest.insertMode": "replace",
+		"gitlens.codeLens.scopes": ["document"],
+		"editor.lineHeight": 25
+	},
+
+	"colorize.include": [
+		"**/*.css",
+		"**/*.scss",
+		"**/*.sass",
+		"**/*.less",
+		"**/*.styl",
+		"**/*.tsx",
+		"**/*.ts",
+		"**/*.js",
+		"**/*.jsx",
+		"**/*.txt"
+	],
+
+	"tailwindCSS.includeLanguages": {
+		"html": "html",
+		"javascript": "javascript",
+		"css": "css"
+	},
+
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+
+	"svgPreview.style": {
+		"html": {
+			"background": "#efefef"
+		}
+	},
+
+	"liveServer.settings.port": 3030,
+
+	"indentRainbow.colors": [
+		"#f725853a",
+		"#7209b73a",
+		"#3a0ca33a",
+		"#4361ee3a",
+		"#4cc9f03a"
+	],
+
+	"indentRainbow.indicatorStyle": "classic",
+	"indentRainbow.lightIndicatorStyleLineWidth": 1,
+	"indentRainbow.updateDelay": 200,
+	"indentRainbow.tabmixColor": "rgba(128,32,96,0.6)",
+
+	"material-icon-theme.folders.color": "#f72585",
+	"editor.renderWhitespace": "boundary",
+	"explorer.confirmDelete": false,
+	"workbench.list.horizontalScrolling": true,
+	"extensions.webWorker": true,
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"javascript.suggest.completeJSDocs": false,
+	"typescript.suggest.completeJSDocs": false,
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"explorer.confirmDragAndDrop": false,
+
+	"vim.showcmd": true,
+	"vim.useCtrlKeys": true,
+	"vim.handleKeys": {
+		"<C-d>": true,
+		"<C-s>": false,
+		"<C-z>": false,
+		"<C-e>": false,
+		"<C-f>": false
+	},
+
+	"workbench.colorTheme": "Omni",
+
+	"workbench.sideBar.location": "left",
+	"files.autoSave": "afterDelay",
+	"terminal.integrated.profiles.linux": {
+		"bash": {
+			"path": "bash",
+			"icon": "terminal-bash"
+		},
+		"zsh": {
+			"path": "zsh"
+		},
+		"fish": {
+			"path": "fish"
+		},
+		"tmux": {
+			"path": "tmux",
+			"icon": "terminal-tmux"
+		},
+		"pwsh": {
+			"path": "pwsh",
+			"icon": "terminal-powershell"
+		},
+		"dash": {
+			"path": "/bin/dash"
+		},
+		"rbash": {
+			"path": "/bin/rbash"
+		}
+	},
+
+	"terminal.integrated.defaultProfile.linux": "zsh",
+	"debug.terminal.clearBeforeReusing": true,
+
+	"terminal.explorerKind": "external",
+	"terminal.integrated.fontFamily": "MesloLGS NF, monospace",
+	"prettier.bracketSameLine": true,
+	"tailwindCSS.emmetCompletions": true,
+	
+	"editor.guides.bracketPairs": true
