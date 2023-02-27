@@ -1,5 +1,3 @@
-const prettierTailwindCSS = require('prettier-plugin-tailwindcss');
-
 module.exports = {
   trailingComma: 'all',
   tabWidth: 2,
@@ -21,6 +19,6 @@ module.exports = {
       },
     },
   ],
-  plugins: [prettierTailwindCSS],
+  plugins: [require('prettier-plugin-tailwindcss')],
   pluginSearchDirs: false,
 };
