@@ -1,12 +1,13 @@
-import { defineConfig } from 'vite';
+import { defineConfig, ServerOptions } from 'vite';
 import eslintPlugin from '@nabla/vite-plugin-eslint';
-import path from 'path';
+
+const serverConfig: ServerOptions = {
+  host: true,
+  port: 3000,
+};
 
 export default defineConfig({
   plugins: [eslintPlugin()],
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './src'),
-    },
-  },
+
+  server: { ...serverConfig },
 });
