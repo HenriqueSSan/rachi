@@ -3,6 +3,30 @@
 @tailwind utilities;
 
 @layer base {
+  @font-face {
+    font-family: 'Inter';
+    src: url('../assets/font/Inter-Medium.ttf');
+    font-weight: 500;
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    src: url('../assets/font/Inter-Regular.ttf');
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: 'Sora';
+    src: url('../assets/font/Sora-SemiBold.ttf');
+    font-weight: 600;
+  }
+
+  @font-face {
+    font-family: 'Sora';
+    src: url('../assets/font/Sora-Regular.ttf');
+    font-weight: 400;
+  }
+
   body {
     @apply bg-window-@light-color text-window-@light-text;
   }
@@ -34,6 +58,12 @@
       @apply w-full px-6;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .l-header__list {
+      @apply w-full;
+    }
+  }
 }
 
 @layer components {
@@ -43,6 +73,10 @@
 
   .btn-primary {
     @apply flex-@center h-8 w-full justify-center rounded-full bg-@primary text-white transition duration-300 ease-in hover:bg-gray-200 hover:text-@primary;
+  }
+
+  .container {
+    @apply w-full max-w-[1150px] md:px-[65px] lg:max-w-[1660px] lg:px-[135px] lg-ns:px-0 xl:px-0 max-md:px-6;
   }
 }
 

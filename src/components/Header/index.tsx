@@ -20,7 +20,7 @@ export const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-header">
       <div className="flex-@center justify-around">
-        <nav className="flex-@center w-full max-w-[1150px] justify-between py-5 max-md:px-6">
+        <nav className="flex-@center container justify-between py-5">
           <a href="/">
             <img src={logo} alt="This is page logo" />
           </a>
@@ -33,7 +33,7 @@ export const Header = () => {
                 return (
                   <li className="group/item" key={key}>
                     <a
-                      className="text-highlight group-last/item:max-md:btn-primary block w-full text-center"
+                      className="text-highlight group-last/item:max-md:btn-primary block w-full rounded-full text-center font-primary leading-[50px] hover:bg-gray-@light group-last/item:max-md:h-[50px]"
                       href={href}
                     >
                       {children}
